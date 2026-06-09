@@ -46,7 +46,7 @@ def init_agent_service():
     tools = [{
         "mcpServers": {
             "txt-counter": {
-                "command": "/opt/homebrew/bin/python3.11",
+                "command": "python",
                 "args": ["txt_counter.py"],
                 "port": 6277
             }
