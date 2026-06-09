@@ -55,7 +55,7 @@ def init_agent_service():
                     "@amap/amap-maps-mcp-server"
                 ],
                 "env": {
-                    "AMAP_MAPS_API_KEY": "5e84705cac9f91a62b76ac784bf8e275"
+                    "AMAP_MAPS_API_KEY": "your-maps-api-key"
                 }
             }
         }
