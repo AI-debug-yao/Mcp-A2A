@@ -55,16 +55,16 @@ def init_agent_service():
                     "@amap/amap-maps-mcp-server"
                 ],
                 "env": {
-                    "AMAP_MAPS_API_KEY": "5e84705cac9f91a62b76ac784bf8e275"
+                    "AMAP_MAPS_API_KEY": "your-maps-api-key"
                 }
             },
             "fetch": {
                 "type": "sse",
-                "url": "https://mcp.api-inference.modelscope.ai/8100a2fb11914c/sse"
+                "url": "https://mcp.api-inference.modelscope.ai/your-key/sse"
             },
             "bing-cn-mcp-server": {
                 "type": "sse",
-                "url": "https://mcp.api-inference.modelscope.ai/0c9c89ab9d9f44/sse"
+                "url": "https://mcp.api-inference.modelscope.ai/your-key/sse"
             }
         }
     }]
